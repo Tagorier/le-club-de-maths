@@ -1,4 +1,4 @@
-//var scrollSpeed = 100;
+var scrollSpeed = 100;
 var current = 0;
 
 function bgscroll() {
@@ -7,4 +7,4 @@ function bgscroll() {
   //$('body').css("backgroundPosition", current + "px " + current/2 +"px");
 }
 
-setInterval("bgscroll()", 100);
+setInterval("bgscroll()", scrollSpeed);
