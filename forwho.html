@@ -6,11 +6,57 @@
 		
 		<style>
 			body {
-				background-image: url("images/it_was_made_for_you.png");
+			    background-image: url("images/it_was_made_for_you.png");
+			    -webkit-animation: loader 16s steps(100) infinite;
+			    -moz-animation: loader 16s steps(100) infinite;
+			    -ms-animation: loader 16s steps(100) infinite;
+			    -o-animation: loader 16s steps(100) infinite;
+			    animation: loader 16s steps(100) infinite;
 			}
-		</style>
-	    
-		<script defer src="monscript.js"></script>
+			
+			@-webkit-keyframes loader {
+			  from {
+			    background-position: 0;
+			  }
+			  to {
+			    background-position: -1600px 0;
+			  }
+			}
+			@-moz-keyframes loader {
+			  from {
+			    background-position: 0;
+			  }
+			  to {
+			    background-position: -1600px 0;
+			  }
+			}
+			@-ms-keyframes loader {
+			  from {
+			    background-position: 0;
+			  }
+			  to {
+			    background-position: -1600px 0;
+			  }
+			}
+			@-o-keyframes loader {
+			  from {
+			    background-position: 0;
+			  }
+			  to {
+			    background-position: -1600px 0;
+			  }
+			}
+			@keyframes loader {
+			  from {
+			    background-position: 0;
+			  }
+			  to {
+			    background-position: -1600px 0;
+			  }
+			}
+	    		</style>
+
+		<!-- <script defer src="monscript.js"></script> -->
 		
     </head>
 	<body>
