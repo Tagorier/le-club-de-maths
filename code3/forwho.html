@@ -7,22 +7,54 @@
 		<style>
 			body {
 				background-image: url("../images/it_was_made_for_you.png");
+				-webkit-animation: loader 16s steps(100) infinite;
+			    	-moz-animation: loader 16s steps(100) infinite;
+			    	-ms-animation: loader 16s steps(100) infinite;
+			   	-o-animation: loader 16s steps(100) infinite;
+			    	animation: loader 16s steps(100) infinite;
+			}
+			
+			@-webkit-keyframes loader {
+			  from {
+			    background-position: 0;
+			  }
+			  to {
+			    background-position: -1600px 0;
+			  }
+			}
+			@-moz-keyframes loader {
+			  from {
+			    background-position: 0;
+			  }
+			  to {
+			    background-position: -1600px 0;
+			  }
+			}
+			@-ms-keyframes loader {
+			  from {
+			    background-position: 0;
+			  }
+			  to {
+			    background-position: -1600px 0;
+			  }
+			}
+			@-o-keyframes loader {
+			  from {
+			    background-position: 0;
+			  }
+			  to {
+			    background-position: -1600px 0;
+			  }
+			}
+			@keyframes loader {
+			  from {
+			    background-position: 0;
+			  }
+			  to {
+			    background-position: -1600px 0;
+			  }
 			}
 		</style>
-		
-		<script src="../monscript.js" type="text/javascript"></script>
-	    	<script type="text/javascript">
-			var scrollSpeed = 100;
-			 var current = 0;
-
-			 function bgscroll() {
-				 current += 1;
-				 $('body').css("backgroundPosition", current + "px " + current/2 +"px");
-
-			 }
-
-			 setInterval("bgscroll()", scrollSpeed);
-		</script>
 			
     </head>
 	<body>
